@@ -6,3 +6,23 @@ body {
     color: navy;
     margin-left: 20px;
   }
+  #pictureBox {
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    color: blue;
+  }
+  .textBox {
+    text-align: center;
+  }
+  .textBox1 {
+    text-align: justify;
+    border: 2px solid blue;
+    padding: 10px;
+  }
+
+  
