@@ -1,67 +1,46 @@
-<!-- Your HTML should have each of the following sections:
-* Header
-* Nav
-* Aside (With a Heading)
-* Section (With a Heading)
-* Article (With a Heading) contained within the Section
-* Headers contained within the Article
-* Paragraph contained within the Article -->
-<!--Don't forget to review these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and 
-	`text-align`. This is in CSS. -->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Index.HTML</title>
-	<meta content="Marvin B. Davis - Easier Homework Assignment" name="description">
-	<meta content="Marvin B. Davis" name="author">
-	<link href="style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <title>About | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body id="body">
-	<div>
-		<div class="h1andp clearfix">
-			<header id="pageHeader">
-				<h1>HEADER</h1>
-			</header>
-			<nav id="pageNav">
-				<h1>NAV</h1>
-			</nav>
-		</div>
-		<div class="section">
-			<section>
-				<h1>SECTION</h1>
-			</section>
-		</div>
-		<div class="aside">
-			<aside>
-				<h1>ASIDE with heading</h1>
-			</aside>
-		</div>
-		<div class="article">
-			<article>
-				<h1>Article1</h1>
-				<section>
-					<h2>Section in Article1</h2>
-				</section>
-				<h1>Article2</h1>
-				<section>
-					<h2>Section in Article2</h2>
-				</section>
-				<h1>Article3</h1>
-				<section>
-					<h2>Section in Article3</h2>
-				</section>
-				<p>Paragraph in Article</p>
-			</article>
-		</div>
-	</div>
-	<header>
-		<h1>Heading</h1>
-	</header>
-	<p>Paragraph</p>
-	<footer id="pageFooter">
-		<h1>FOOTER</h1>
-	</footer>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
+
+      <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
+
+      <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
+
 </html>
