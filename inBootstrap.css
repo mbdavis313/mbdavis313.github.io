@@ -1,0 +1,13 @@
+aside {
+    width: 50%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px black;
+    font-style: Arial;
+    color: black;
+}
+
+aside > p {
+    margin: .5rem;
+}
